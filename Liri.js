@@ -84,7 +84,7 @@ var app = {
             "do-what-it-says": function() {
                 fs.readFile('ranadom.txt', 'utf8', function(err, data) {
                     if(err) throw err;
-                    if(err) throw err;
+                   
                     console.log(data.toString());
 
                     var cmds = data.toString().split(',');
